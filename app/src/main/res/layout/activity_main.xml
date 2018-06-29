@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:orientation="vertical"
+    android:paddingTop="100dp"
+    android:paddingBottom="10dp" tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:src="@mipmap/ic_launcher" />
+
+   <Button
+       android:layout_width="100dp"
+       android:layout_height="wrap_content"
+       android:text="Play"
+       android:id="@+id/playButton"
+       android:background="@color/colorPrimary"
+       android:textColor="#FFFF"
+       android:layout_gravity="center"
+       android:layout_marginTop="30dp"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Pause"
+        android:id="@+id/pauseButton"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFFF"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Stop"
+        android:id="@+id/stopButton"
+        android:background="@color/colorPrimary"
+        android:textColor="#FFFF"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"/>
+
+
+
+</LinearLayout>
